@@ -2,7 +2,7 @@
 
 An example GraphQL API using:
 
-- [`koa`](https://npm.im/koa)
+- [`express`](https://expressjs.com/)
 - [`graphql-upload`](https://npm.im/graphql-upload)
 - [`@as-integrations/koa`](https://npm.im/@as-integrations/koa)
 
