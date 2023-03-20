@@ -2,16 +2,12 @@
 
 import { fileURLToPath } from "node:url";
 
-import { ApolloServer } from "apollo-server-express";
 import { ApolloServerPluginDrainHttpServer } from "@apollo/server/plugin/drainHttpServer";
-
-import graphqlUploadExpress from "graphql-upload/graphqlUploadExpress.mjs";
-
-import http from "http";
-
-import express from "express";
+import { ApolloServer } from "apollo-server-express";
 import cors from "cors";
-
+import express from "express";
+import graphqlUploadExpress from "graphql-upload/graphqlUploadExpress.mjs";
+import http from "http";
 import makeDir from "make-dir";
 
 import UPLOAD_DIRECTORY_URL from "./config/UPLOAD_DIRECTORY_URL.mjs";
