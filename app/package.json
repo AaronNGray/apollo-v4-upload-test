@@ -1,15 +1,22 @@
 {
-  "name": "apollo-upload-examples-app",
+  "name": "apollo-client-v3-upload-test-app",
   "private": true,
   "license": "MIT",
-  "author": {
-    "name": "Jayden Seric",
-    "email": "me@jaydenseric.com",
-    "url": "https://jaydenseric.com"
-  },
+  "author": [
+    {
+      "name": "Jayden Seric",
+      "email": "me@jaydenseric.com",
+      "url": "https://jaydenseric.com"
+    },
+    {
+      "name": "Aaron N Gray",
+      "email": "aaronngray@gmail.com",
+      "url": "https://github.com/AaronNGray"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaydenseric/apollo-upload-examples.git",
+    "url": "https://github.com/AaronNGray/apollo-v4-upload-test.git",
     "directory": "app"
   },
   "homepage": "https://github.com/jaydenseric/apollo-upload-examples#readme",
